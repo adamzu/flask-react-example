@@ -9,7 +9,7 @@ First, ensure `python3` and `pip3` are installed. You can install them with [Hom
 1. Install python3/pip3 - `brew install python3`
 
 Then do the following:
-1. Clone this git repo: `git clone https://github.com/adamzu/flask-react-example.git`
+1. Download the files in this git repo: `git clone https://github.com/adamzu/flask-react-example.git` or do it manually from the webpage
 1. Install [virtualenv](https://virtualenv.pypa.io/en/latest/) - `pip install virtualenv`
 1. Create a virtual environment: `virtualenv -p python3 venv`
 1. Activate the virtual environment: `. venv/bin/activate`

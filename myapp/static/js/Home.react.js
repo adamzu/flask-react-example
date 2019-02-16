@@ -1,4 +1,4 @@
-import Header from 'Header.react';
+import NumberOfTimesIndicator from 'NumberOfTimesIndicator.react';
 import React from 'react';
 
 class Home extends React.Component {
@@ -35,11 +35,14 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Header
-          action='clicked the button'
+        <div className="title">
+          <span className="title-text">Welcome to my app!</span>
+        </div>
+        <NumberOfTimesIndicator
+          action='clicked the "Click me!" button'
           count={this.state.count}
         />
-        <Header
+        <NumberOfTimesIndicator
           action='reset'
           count={this.state.numberOfResets}
         />

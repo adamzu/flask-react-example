@@ -1,0 +1,15 @@
+.title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+}
+
+.number-of-times-indicator {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  margin: 5px;
+}

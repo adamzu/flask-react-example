@@ -1,0 +1,6 @@
+*.pyc
+.DS_Store
+__pycache__
+bundle.js
+node_modules
+venv

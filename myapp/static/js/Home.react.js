@@ -1,3 +1,4 @@
+import MyButton from 'MyButton.react';
 import NumberOfClicksIndicator from 'NumberOfClicksIndicator.react';
 import React from 'react';
 
@@ -41,8 +42,14 @@ class Home extends React.Component {
           buttonName='Reset'
           numberOfClicks={this.state.numberOfResetClicks}
         />
-        <button onClick={this.onClickMeClick}>Click me!</button>
-        <button onClick={this.onResetClick}>Reset</button>
+        <MyButton
+          onClick={this.onClickMeClick}
+          text="Click me!"
+        />
+        <MyButton
+          onClick={this.onResetClick}
+          text="Reset"
+        />
       </div>
     );
   }
